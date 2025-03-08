@@ -39,7 +39,7 @@ const app = express(); // Initialize Express app
 
 // -----ENV Setup----- //
 require("dotenv").config(); // Load environment variables from a .env file into process.env
-const PORT = 4000; // Define the port number for the server to run on
+const PORT = 4003; // Define the port number for the server to run on
 const routes = require("./routes"); // Import custom route handlers from the 'routes' directory
 
 // -----Middleware----- //
